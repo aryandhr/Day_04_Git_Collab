@@ -1,5 +1,9 @@
 # +
+<<<<<<< HEAD
 #""""
+=======
+
+>>>>>>> origin/kriser
 #To use this notebook for your in-class assignment, you will need these 
 #files, which you shoujld have downloaded:
 #* mhu.csv -- Lake Michigan and Lake Huron
@@ -10,8 +14,12 @@
 #As instructed in the in-class activity notebook for today, you are 
 #only expected to complete one PART below. Do not worry if your group 
 #is not big enough to finish all parts below, but if you have extra 
+<<<<<<< HEAD
 #time, you're welcome to do so. 
 #""""
+=======
+#time, you're welcome to do so.
+>>>>>>> origin/kriser
 
 import numpy as np
 import pandas as pd
@@ -23,7 +31,13 @@ import matplotlib.pyplot as plt
 # Using the Michigan/Huron Dataset, plot the Water Level, the second 
 # column, as a function of time years
 
+mhu_data = pd.read_csv('mhu.csv')
 
+mhu_data
+
+plt.plot(mhu_data['time'],mhu_data['lake average'])
+plt.ylabel('lake average')
+plt.xlabel('year')
 
 # PART 2
 # Using the Superior Dataset, plot the Water Level, the second column, 
