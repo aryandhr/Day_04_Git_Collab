@@ -25,9 +25,6 @@ import matplotlib.pyplot as plt
 # PART 2
 # Using the Superior Dataset, plot the Water Level, the second column, 
 # as a function of time years
-import pandas as pd
-import matplotlib.pyplot as plt
-
 df = pd.read_csv("CMSE202/repositories/Day_04_Git_Collab/sup.csv")
 x_dhar = df["lake levels"]
 y_dhar = df["year"]
